@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (min-width: 640px) {
+  .text-root {
+    --font-size-dynamic: 15px;
+  }
+}
+ 
+@media (min-width: 768px) {
+  .text-root {
+    --font-size-dynamic: 17px;
+  }
+}
