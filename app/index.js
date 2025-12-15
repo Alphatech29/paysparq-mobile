@@ -123,7 +123,7 @@ export default function Onboarding() {
         <View>
           <CustomButton
             title="Sign In"
-            onPress={() => router.push("/screens/auth/login")}
+            onPress={() => router.push("/login")}
             bgColor="bg-paysparq"
             textColor="text-primary"
             borderColor="#F66B04"
@@ -133,7 +133,7 @@ export default function Onboarding() {
          <View>
           <CustomButton
             title="Sign Up"
-            onPress={() => router.push("/screens/auth/register")}
+            onPress={() => router.push("/register")}
             className="py-4 rounded-xl"
             textClassName="text-white text-base font-semibold text-center"
           />

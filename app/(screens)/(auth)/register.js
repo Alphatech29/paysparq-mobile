@@ -91,7 +91,6 @@ export default function Register() {
         showToast(result?.message || "Registration failed", "error");
       }
     } catch (error) {
-      // Show network errors at the top
       if (error.message === "NETWORK_TIMEOUT") {
         setToast({
           visible: true,
@@ -125,7 +124,7 @@ export default function Register() {
       >
         {/* Back */}
         <TouchableOpacity
-          onPress={() => router.push("/onBoarding")}
+          onPress={() => router.push("/index")}
           className="mb-4 mt-5"
         >
           <StyledText className="text-[#451805] text-base font-semibold">
@@ -135,7 +134,7 @@ export default function Register() {
 
         {/* Header */}
         <StyledView className="mb-8">
-          <StyledText className="text-lg font-bold text-[#451805]">
+          <StyledText className="text-2xl font-bold text-[#451805]">
             Create An Account
           </StyledText>
           <StyledText className="text-xs text-[#451805]/70">

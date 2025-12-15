@@ -8,7 +8,7 @@ module.exports = {
     extend: {
       colors: {
         primary: "#F66B04",
-        secondary: "#451805",
+        secondary: "#FFF9EC",
         paysparq: "#FFF7E9",
         text: "#FFFFFF",
       },
